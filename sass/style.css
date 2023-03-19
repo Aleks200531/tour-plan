@@ -314,4 +314,69 @@ template {
    */
 [hidden] {
   display: none;
+}
+
+.header {
+  background-color: #fff;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0px 40px;
+}
+.header__search {
+  margin-right: auto;
+  margin-left: 108px;
+}
+
+.search {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  height: 40px;
+}
+.search__input {
+  width: 350px;
+  height: 100%;
+  padding-left: 23px;
+  padding-right: 75px;
+  overflow: hidden;
+  background-color: #f5fafe;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 15px;
+  color: #333333;
+}
+.search__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 65px;
+  border: none;
+  background-color: #ec1f46;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.user__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user__name {
+  padding-left: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
 }/*# sourceMappingURL=style.css.map */
