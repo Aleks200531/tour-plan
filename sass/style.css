@@ -329,6 +329,31 @@ template {
   margin-right: auto;
   margin-left: 108px;
 }
+.navbar-bottom {
+  background-color: #0a223d;
+  height: 80px;
+}
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 31px 0px 31px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-menu__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.logo {
+  width: 177px;
+  height: 24px;
+}
 
 .search {
   display: flex;
@@ -358,6 +383,7 @@ template {
   width: 65px;
   border: none;
   background-color: #ec1f46;
+  cursor: pointer;
 }
 
 .user {
@@ -379,4 +405,18 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 760px;
+  }
+  .navbar__search {
+    margin-left: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
