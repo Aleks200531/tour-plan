@@ -431,13 +431,12 @@ template {
     width: 132px;
     height: 14px;
   }
-  .navbar__search {
-    margin-left: auto;
-    max-width: 340px;
-  }
-  .navbar__search__link {
+  .navbar__logo__link {
     font-size: 12px;
     line-height: 15px;
+  }
+  .search__input {
+    width: 340px;
   }
 }
 @media (max-width: 768px) {
@@ -452,6 +451,7 @@ template {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0;
     width: 16px;
     height: 11px;
     flex-direction: column;
